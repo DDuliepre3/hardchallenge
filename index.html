@@ -1,0 +1,25 @@
+<!--HARD: Create an HTML form with a GET method that will collect the following: First Name, Last Name, Gender (have them pick), Favorite sport (from a dropdown list of at least 5), Checkboxes for what you like on your pizza (from a list of at least 5) and
+the submit button should read, "Save".-->
+
+<!DOCTYPE hmtl>
+<html>
+    <head>
+    </head>
+    <body>
+        <form method="GET" action="#">
+            <fieldset>
+                <label for="FName">First Name</label>
+                <input id="FName" type="text" name="fname" value="lname" placeholder="Placeholder">
+		<label for="LName">Last Name</label>
+                <input id="LName" type="text" name="lname" value="lname" placeholder="Placeholder">
+            </fieldset>
+            <div>
+                <label for="GenderM">Male:<input id="GenderM" type="radio" name="gender" value"Male"></label>
+                <label for="GenderF">Female:<input id="GenderF" type="radio" name="gender" value"Female"></label>
+            </div>
+	    <div>
+                <input type="submit" name="Save">
+            </div>
+        </form>
+    </body>
+</html>
